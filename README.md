@@ -23,7 +23,7 @@ Nodes in a network are usually described by their degree. In our case, in-degree
 
 As seen below, the number of people commuting to cities (in-degree) has a much bigger tail than the number of people leaving them (out-degree) : a few urban units are very attractive, while most of them attract few workers. Workplace is more concentrated than residency.
 
-![alt-style](https://github.com/amapsa/Commuting_Networks_FR/blob/master/Figures/inout_degree.jpg)
+![alt-style](https://github.com/amapsa/Commuting_Networks_FR/blob/master/Figures/inout_degree_ink.pdf)
 
 From those degrees, one can infer the centrality of a node in the network. Following [D. Gleich][Gleich], pagerank centrality is often used as it takes into account that an area is more "central" if it is connected to other well-connected areas. 
 Unsurprisingly, the top ten most central nodes are the cores of the Metropolitan Areas in France. The legacy of French centralization of power is also visible in the score of Paris, well ahead any other urban unit.
@@ -50,6 +50,8 @@ Within graph theory, a community is defined as a group of nodes strongly connect
 I try both the Louvain and the Combo method for community partition, and both give a modularity score above 0.9. Given that this score indicates the strength of connection within communities, and that the score is bounded between -1 and 1, we can safely say that the communities it detected are very strongly connected.
 
 The overall modularity score [Appendix C] is 0.947, which indicates a set of internally strongly connected communities (given that the score is bounded between -1 and 1). The superposition between the detected communities and some of the new Metropolitan Areas shows that, despite their size, and ambition, the new areas fall short to regrouping all the Urban Units within a “commuting community” [Map 1].
+
+![alt-style](https://github.com/amapsa/Commuting_Networks_FR/blob/master/Figures/Marseille_map.jpeg)
 
 ---
 
