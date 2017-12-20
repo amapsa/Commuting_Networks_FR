@@ -49,12 +49,14 @@ Within graph theory, a community is defined as a group of nodes strongly connect
 
 I try both the Louvain and the Combo method for community partition, and both give a modularity score above 0.9. Given that this score indicates the strength of connection within communities, and that the score is bounded between -1 and 1, we can safely say that the communities it detected are very strongly connected.
 
-The overall modularity score [Appendix C] is 0.947, which indicates a set of internally strongly connected communities (given that the score is bounded between -1 and 1). The superposition between the detected communities and some of the new Metropolitan Areas shows that, despite their size, and ambition, the new areas fall short to regrouping all the Urban Units within a “commuting community” [Map 1].
+Looking at the map below in Provence, one can however feel disappointed: the extent of the yellow community (centered around the urban area of Marseille - Aix-en-Provence) is such that it spills over three *départements*. Dissolving the *département* in a Metropolitan Area has indeed been done around Lyon. This yellow region would however encompass cities that have little to do with each other beyond some commuting.
 
 ![alt-style](https://github.com/amapsa/Commuting_Networks_FR/blob/master/Figures/Marseille_map.jpeg)
 
 ---
 
-In the end, for all the complexity that multiple administrative boundaries may bring, we probably cannot design a single (though there are instances where we could do better - I am looking at you New York and Paris).
+In the end, though focusing solely on commuting patterns is obviously too narrow, it is however unlikely that we would today be able to encompass all relevant variables in a single algorithmic detection. It may bring down a dream of administrative rationalization, but it should not prevent us from using data as a guiding tool in the discussions to come.
+
+As for the best level to deal with commuting problems, there may often be no possibility of a single entity large and consistent enougn. It remains that there are instances where transportation authorities could better coordinate themselves.
 
 [Gleich]: https://arxiv.org/abs/1407.5107
