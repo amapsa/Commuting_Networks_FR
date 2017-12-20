@@ -23,7 +23,7 @@ Nodes in a network are usually described by their degree. In our case, in-degree
 
 As seen below, the number of people commuting to cities (in-degree) has a much bigger tail than the number of people leaving them (out-degree) : a few urban units are very attractive, while most of them attract few workers. Workplace is more concentrated than residency.
 
-![alt-style](https://github.com/amapsa/Commuting_Networks_FR/blob/master/Figures/inout_degree_ink.pdf)
+![alt-style](https://github.com/amapsa/Commuting_Networks_FR/blob/master/Figures/inout_degree_ink.jpg)
 
 From those degrees, one can infer the centrality of a node in the network. Following [D. Gleich][Gleich], pagerank centrality is often used as it takes into account that an area is more "central" if it is connected to other well-connected areas. 
 Unsurprisingly, the top ten most central nodes are the cores of the Metropolitan Areas in France. The legacy of French centralization of power is also visible in the score of Paris, well ahead any other urban unit.
